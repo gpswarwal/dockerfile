@@ -33,7 +33,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - echo Pushing the Docker image...
       - docker push $uri1:latest
       - docker push $uri2:latest
       - docker push $uri3:latest
